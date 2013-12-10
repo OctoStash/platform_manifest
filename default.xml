@@ -381,5 +381,5 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="github" revision="kk-4.4" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
 </manifest>
