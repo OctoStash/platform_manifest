@@ -33,9 +33,9 @@
   <project path="device/samsung/jfltecan" name="platform_device_samsung_jfltecan" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jflteatt" name="platform_device_samsung_jflteatt" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltetmo" name="platform_device_samsung_jfltetmo" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/jfltexx" name="AOSP-S4-KK/platform_device_samsung_jfltexx" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="AOSP-S4-KK/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/jfltexx" name="platform_device_samsung_jfltexx" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -48,7 +48,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOSP-S4-KK/platform_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
