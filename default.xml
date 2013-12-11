@@ -16,12 +16,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AOSP-S4-KK/platform_art" remote="github" revision="kk-4.4" />
-  <project path="bionic" name="AOSP-S4-KK/platform_bionic" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="art" name="platform_art" remote="ok" revision="kk-4.4" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="AOSP-S4-KK/platform_dalvik" remote="github" revision="kk-4.4" />
+  <project path="dalvik" name="platform_dalvik" remote="ok" revision="kk-4.4" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
