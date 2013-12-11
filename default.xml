@@ -58,7 +58,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="AOSP-S4-KK/platform_external_chromium_org" remote="github" revision="kk-4.4" />
+  <project path="external/chromium_org" name="platform_external_chromium_org" remote="ok" revision="kk-4.4" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -82,7 +82,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="AOSP-S4-KK/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/clang" name="platform_external_clang" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -90,7 +90,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="AOSP-S4-KK/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -105,7 +105,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="AOSP-S4-KK/platform_external_fsck_msdos" remote="github" revision="kk-4.4" />
+  <project path="external/fsck_msdos" name="platform_external_fsck_msdos" remote="ok" revision="kk-4.4" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
@@ -119,7 +119,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="AOSP-S4-KK/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/icu4c" name="platform_external_icu4c" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -201,8 +201,8 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="AOSP-S4-KK/platform_external_skia" remote="github" revision="kk-4.4" />
-  <project path="external/s4utils" name="broodplank/android_external_s4utils" remote="github" revision="master" />
+  <project path="external/skia" name="platform_external_skia" remote="ok" revision="kk-4.4" />
+  <project path="external/s4utils" name="platform_external_s4utils" remote="ok" revision="kk-4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
