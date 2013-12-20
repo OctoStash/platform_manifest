@@ -409,4 +409,5 @@
   
   <!-- Vendor -->
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
+  <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4" />
 </manifest>
