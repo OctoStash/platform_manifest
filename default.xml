@@ -30,6 +30,7 @@
   
   <!-- Device -->
   <project path="device/common" name="device/common" />
+  <!-- Samsung Device -->
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -40,8 +41,26 @@
   <project path="device/samsung/jflteatt" name="platform_device_samsung_jflteatt" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltetmo" name="platform_device_samsung_jfltetmo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltexx" name="platform_device_samsung_jfltexx" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2att" name="platform_device_samsung_d2att" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2vzw" name="platform_device_samsung_d2vzw" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2usc" name="platform_device_samsung_d2usc" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2tmo" name="platform_device_samsung_d2tmo" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2spr" name="platform_device_samsung_d2spr" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2mtr" name="platform_device_samsung_d2mtr" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2cri" name="platform_device_samsung_d2cri" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- HTC Device -->
+  <project path="device/htc/m7-common" name="platform_device_htc-m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7ul" name="platform_device_htc_m7ul" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7spr" name="platform_device_htc_m7spr" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7vzw" name="platform_device_htc_m7vzw" groups="pdk" remote="ok" revision="kk-4.4" />
+  
+  <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
   <!-- External -->
@@ -272,8 +291,11 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   
-  <!-- Kernel -->
+  <!-- Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
+  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
   
   <!-- Hardware -->
   <project path="hardware/akm" name="platform/hardware/akm" />
@@ -368,9 +390,9 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="packages/wallpapers/OctPhase" name="packages_wallpapers_OctPhase" remote="ok" revision="kk-4.4" />
   <project path="packages/wallpapers/OctSun" name="packages_wallpapers_OctSun" remote="ok" revision="kk-4.4" />
-  <project path="pdk" name="platform/pdk" groups="pdk" />
 
   <!-- Prebuilts -->
+  <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
