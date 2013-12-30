@@ -53,7 +53,7 @@
   <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC Device -->
-  <project path="device/htc/m7-common" name="platform_device_htc-m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7ul" name="platform_device_htc_m7ul" groups="pdk" remote="ok" revision="kk-4.4" />
