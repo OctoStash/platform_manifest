@@ -28,9 +28,16 @@
   <project path="development" name="platform/development" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   
-  <!-- Device -->
+  <!-- AOSP Devices-->
   <project path="device/common" name="device/common" />
-  <!-- Samsung Device -->
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+  <!-- Samsung gs4 Devices -->
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -41,6 +48,9 @@
   <project path="device/samsung/jflteatt" name="platform_device_samsung_jflteatt" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltetmo" name="platform_device_samsung_jfltetmo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltexx" name="platform_device_samsung_jfltexx" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- Samsung gs3 Devices -->
   <project path="device/samsung/d2att" name="platform_device_samsung_d2att" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2vzw" name="platform_device_samsung_d2vzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2usc" name="platform_device_samsung_d2usc" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -49,16 +59,31 @@
   <project path="device/samsung/d2mtr" name="platform_device_samsung_d2mtr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2cri" name="platform_device_samsung_d2cri" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- Samsung Epic Device -->
   <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
-  <!-- HTC Device -->
+  <!-- HTC One Devices -->
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7ul" name="platform_device_htc_m7ul" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7spr" name="platform_device_htc_m7spr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7vzw" name="platform_device_htc_m7vzw" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- HTC Evita/Jewel Devices -->
+  <project path="device/htc/jewel" name="platform_device_htc_jewel" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/evita" name="platform_device_htc_evita" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/s4-common" name="platform_device_htc_s4-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  
+  <!-- Our Kernels -->
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
+  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
+  <project path="kernel/htc/msm8960" name="platform_device_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- AOSP Kernels-->
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -289,12 +314,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   
-  <!-- Kernels -->
-  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
-  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
-  <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
-  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
-  
   <!-- Hardware -->
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
@@ -325,7 +344,7 @@
  
   <!-- Packages -->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="ok" revision="kk-4.4" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
