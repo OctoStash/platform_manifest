@@ -79,7 +79,7 @@
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
-  <project path="kernel/htc/msm8960" name="platform_device_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- AOSP Kernels-->
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
