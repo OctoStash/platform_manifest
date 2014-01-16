@@ -1,14 +1,18 @@
-AOSP 4.4 KitKat for Galaxy S4
-=============================
-
+~~~~~Team-OctOS~~~~~
+~~~~~~Octo-Kat~~~~~~
+REAL AOSP + GPE + OctSettings = OctOS
 
 
 Download:
 ----------
-* mkdir ~/AOSP
-* cd ~/AOSP
+* mkdir ~/Oct
+* cd ~/Oct
 * repo init -u git://github.com/Octo-Kat/platform_manifest -b kk-4.4
 * repo sync
+
+-OR- mkdir ~/Oct && cd ~/Oct && repo init -u git://github.com/Octo-Kat/platform_manifest -b kk-4.4 && repo sync
+
+* Then watch the magic happen.... P.S. the source is like 30-40gb.  Be Aware you are playing with large amounts of files and it's not a fast process.  Dial-up need not apply.
 
 
 Building:
@@ -16,3 +20,17 @@ Building:
 * . build/envsetup.sh
 * lunch
 * make otapackage
+
+-OR- . build/envsetup.sh && lunch
+-THEN- make otapackage -j(however many cores you can dedicate to the build minus one)
+
+* Your initial build will take about 2-3 hours.  Each build after will take between 20-30 minutes.
+
+ __________                 ___            __________     __________ 
+/   ____   \               |   |          /   ____   \   /   _______\
+|   |  |   |            ___|   |___       |   |  |   |   |  /
+|   |  |   |    _____  |           |      |   |  |   |   |  \_______
+|   |  |   |   /  ___\ |___     ___|      |   |  |   |    \______   \
+|   |  |   |  |  |         |   |          |   |  |   |           \  |
+|   ----   |  |  |____     |   |    __    |   ----   |     ______/  |
+\__________/   \_____/     |___|   |__|   \__________/    /_________/
