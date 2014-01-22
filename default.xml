@@ -70,7 +70,7 @@
   <project path="device/samsung/d2cri" name="platform_device_samsung_d2cri" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- Samsung Epic Device -->
-  <!--project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" /-->
+  <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC One Devices -->
   <!--project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -87,9 +87,9 @@
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
   <!--project path="kernel/grommish/jf" name="platform_kernel_samsung_jf" remote="grommish" revision="kk-4.4_new" /-->
-  <!-- project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
-  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
+  <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
   <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" /-->
   <!-- AOSP Kernels-->
   <!--project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
