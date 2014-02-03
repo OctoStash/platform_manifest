@@ -15,6 +15,9 @@
            
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
+
+  <remote name="ms"
+           fetch="https://github.com/MassStash/" />
            
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -31,7 +34,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="jet" name="jet" remote="ok" revision="kk-4.4" />
+  <project path="jet" name="jet" remote="ms" revision="msoctos" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
@@ -80,18 +83,18 @@
   <project path="device/htc/m7spr" name="platform_device_htc_m7spr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7vzw" name="platform_device_htc_m7vzw" groups="pdk" remote="ok" revision="kk-4.4" /-->
   <!-- HTC Evita/Jewel Devices -->
-  <!--project path="device/htc/jewel" name="platform_device_htc_jewel" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/htc/evita" name="platform_device_htc_evita" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/htc/s4-common" name="platform_device_htc_s4-common" groups="pdk" remote="ok" revision="kk-4.4" /-->
+  <project path="device/htc/jewel" name="android_device_htc_jewel" groups="pdk" remote="ms" revision="msoctos" />
+  <project path="device/htc/evita" name="android_device_htc_evita" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" groups="pdk" remote="ms" revision="msoctos" />
+  <project path="device/htc/s4-common" name="android_device_htc_s4-common" groups="pdk" remote="ms" revision="msoctos" />
   
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
   <!--project path="kernel/grommish/jf" name="platform_kernel_samsung_jf" remote="grommish" revision="kk-4.4_new" /-->
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
-  <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
-  <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" /-->
+  <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" /-->
+  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" groups="pdk" remote="ms" revision="msoctos" />
   <!-- AOSP Kernels-->
   <!--project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
@@ -297,7 +300,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="ms" revision="msoctos" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -456,8 +459,9 @@
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="hw" revision="cm-11.0" />
   
   <!-- Vendor -->
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ms" revision="cm-11.0" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
-  <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4" />
+  <project path="vendor/oct" name="vendor_oct" remote="ms" revision="msoctos" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/providers/ThemeManager" name="platform_vendor_tmobile_providers_ThemeManager" remote="ok" revision="kk-4.4" />
