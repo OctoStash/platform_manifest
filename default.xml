@@ -18,6 +18,9 @@
 
   <remote name="ms"
            fetch="https://github.com/MassStash/" />
+
+  <remote name="os"
+           fetch="https://github.com/OctoStash/" />
            
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -393,7 +396,7 @@
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Tentacles" name="platform_packages_apps_Tentacles" remote="ms" revision="msoctos" />
+  <project path="packages/apps/Tentacles" name="platform_packages_apps_Tentacles" remote="os" revision="msoctos" />
   <project path="packages/apps/Torch" name="platform_packages_apps_Torch" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
