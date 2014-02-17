@@ -410,7 +410,7 @@
   <project path="packages/apps/OctPapers" name="platform_packages_apps_OctPapers" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/HallMonitor" name="platform_packages_apps_HallMonitor" remote="ok" revision="kk-4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="ok" revision="kk-4.4" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
