@@ -58,6 +58,7 @@
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" /-->
   <!-- Samsung gs4 Devices -->
+  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
