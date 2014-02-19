@@ -88,7 +88,7 @@
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
   <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
-  <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" /-->
+<project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" /-->
   <!-- AOSP Kernels-->
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
@@ -329,7 +329,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="hw" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="ok" revision="kk-4.4" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="hardware/samsung" name="platform_hardware_samsung" remote="hw" revision="kk-4.4" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-4.4" />
@@ -443,4 +443,22 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="platform/sdk" 
+  <project path="sdk" name="platform/sdk" />
+  
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="hw" revision="cm-11.0" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="hw" revision="cm-11.0" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="hw" revision="cm-11.0" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="hw" revision="cm-11.0" />
+  
+  <!-- Vendor -->
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
+  <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="platform_vendor_tmobile_providers_ThemeManager" remote="ok" revision="kk-4.4" />
+  
+</manifest>
