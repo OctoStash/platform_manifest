@@ -62,6 +62,7 @@
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/jflterefreshspr" name="platform_device_samsung_jflterefreshspr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jflteusc" name="platform_device_samsung_jflteusc" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltecri" name="platform_device_samsung_jfltecri" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltecsp" name="platform_device_samsung_jfltecsp" groups="pdk" remote="ok" revision="kk-4.4" />
