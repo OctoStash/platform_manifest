@@ -35,7 +35,15 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="ok" revision="kk-4.4" />
+<<<<<<< HEAD
   <project path="jet" name="jet" remote="ms" revision="octostashbox" />
+=======
+
+  <project path="jet" name="jet" remote="ms" revision="msoctos" />
+
+  <project path="ket" name="ket" remote="ok" revision="kk-4.4" />
+
+>>>>>>> 2a0fafd... Update default.xml
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
