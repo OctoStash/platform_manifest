@@ -3,9 +3,6 @@
 
   <remote name="ok"
            fetch="https://github.com/Octo-Kat/" />
-
-  <remote name="grommish"
-           fetch="https://github.com/Grommish/" />
            
   <remote name="hw"
            fetch="https://github.com/hardware-repos/" />
@@ -39,12 +36,12 @@
   <!-- AOSP Devices-->
   <project path="device/common" name="device/common" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+  <project path="device/asus/deb" name="platform_device_asus_deb" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/asus/flo" name="platform_device_asus_flo" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/asus/tilapia" name="platform_device_asus_tilapia" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/mako" name="platform_device_lge_mako" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- Samsung gs4 Devices -->
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -72,29 +69,30 @@
   <!-- Samsung Epic Device -->
   <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC One Devices -->
-  <!--project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7ul" name="platform_device_htc_m7ul" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7spr" name="platform_device_htc_m7spr" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/htc/m7vzw" name="platform_device_htc_m7vzw" groups="pdk" remote="ok" revision="kk-4.4" /-->
+  <project path="device/htc/m7vzw" name="platform_device_htc_m7vzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC Evita/Jewel Devices -->
-  <!--project path="device/htc/jewel" name="platform_device_htc_jewel" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/htc/jewel" name="platform_device_htc_jewel" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/evita" name="platform_device_htc_evita" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/htc/s4-common" name="platform_device_htc_s4-common" groups="pdk" remote="ok" revision="kk-4.4" /-->
+  <project path="device/htc/s4-common" name="platform_device_htc_s4-common" groups="pdk" remote="ok" revision="kk-4.4" />
   
-  <!-- Our Kernels -->
+  <!-- Our Samsung Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
-  <!--project path="kernel/grommish/jf" name="platform_kernel_samsung_jf" remote="grommish" revision="kk-4.4_new" /-->
+  <!--project path="kernel/grommish/jf" name="Grommish/platform_kernel_samsung_jf" remote="github" revision="kk-4.4_new" /-->
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
-  <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
-<project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" /-->
-  <!-- AOSP Kernels-->
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+  <!-- Our HTC Kernels -->
+  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
+  <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- Our Google Kernels -->
+  <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="ok" revision="kk-4.4" />
+  <project path="kernel/google/msm" name="platform_kernel_google_msm" remote="ok" revision="kk-4.4" />
+  <project path="kernel/asus/grouper" name="platform_kernel_asus_grouper" remote="ok" revision="kk-4.4" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -459,6 +457,9 @@
   <!-- Vendor -->
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="ok" revision="kk-4.4" />
+  <project path="vendor/htc" name="platform_vendor_htc" remote="ok" revision="kk-4.4" />
+  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="ok" revision="kk-4.4" />
+  <project path="vendor/asus" name="platform_vendor_asus" remote="ok" revision="kk-4.4" />
   <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
