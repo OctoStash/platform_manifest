@@ -80,7 +80,14 @@
   <project path="device/htc/evita" name="platform_device_htc_evita" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/s4-common" name="platform_device_htc_s4-common" groups="pdk" remote="ok" revision="kk-4.4" />
-  
+  <!-- LGE Devices -->
+  <project path="device/lge/vs980" name="platform_device_lge_vs980" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/ls980" name="platform_device_lge_ls980" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/d802" name="platform_device_lge_d802" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/d801" name="platform_device_lge_d801" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/d800" name="platform_device_lge_d800" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/g2-common" name="platform_device_lge_g2-common" groups="pdk" remote="ok" revision="kk-4.4" />
+
   <!-- Our Samsung Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
   <!--project path="kernel/grommish/jf" name="Grommish/platform_kernel_samsung_jf" remote="github" revision="kk-4.4_new" /-->
@@ -93,6 +100,8 @@
   <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="ok" revision="kk-4.4" />
   <project path="kernel/google/msm" name="platform_kernel_google_msm" remote="ok" revision="kk-4.4" />
   <project path="kernel/asus/grouper" name="platform_kernel_asus_grouper" remote="ok" revision="kk-4.4" />
+  <!-- Our LGE Kernels -->
+  <project path="kernel/lge/msm8974" name="platform_kernel_lge_msm8974" remote="ok" revision="kk-4.4" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
