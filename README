@@ -1,30 +1,50 @@
 ------------Team-OctOS------------
 -------------Octo-Kat-------------
+----------Android--4.4.2----------
 REAL AOSP + GPE + OctSettings = OctOS
 
+~~~~~!!!!!TEACHING TIME!!!!!~~~~~
+Pull up a chair and prepare to learn.
 
-Download:
-----------
-* mkdir ~/Oct
-* cd ~/Oct
-* repo init -u git://github.com/Octo-Kat/platform_manifest -b kk-4.4
-* repo sync
+Setup Your Environment in Ubuntu/Linux:
+--------------------------------------
+    http://forum.xda-developers.com/showthread.php?t=2368833
+You can alternatively install everything manually.  Click below for more information:
+    http://lmgtfy.com/?q=setup+android+environment
 
--OR- mkdir ~/Oct && cd ~/Oct && repo init -u git://github.com/Octo-Kat/platform_manifest -b kk-4.4 && repo sync
+Downloading the Source(about 30-40GB of files):
+----------------------------------------------
+    * Make your project directory =>     "mkdir ~/oct"
+    * Navigate or change directory to your project directory =>    "cd ~/oct"
+    * Initialize the project =>   "repo init -u git://github.com/Octo-Kat/platform_manifest -b kk-4.4"
+    * Sync the project files to your machine =>    "repo sync"
 
-* Then watch the magic happen.... P.S. the source is like 30-40gb.  Be Aware you are playing with large amounts of files and it's not a fast process.  Dial-up need not apply.
+-OR- 
+    String all the commands together using &&:
+    * "mkdir ~/oct && cd ~/oct && repo init -u git://github.com/Octo-Kat/platform_manifest -b kk-4.4 && repo sync"
 
+Building a supported device using lunch:
+---------------------------------------
+    * ". build/envsetup.sh"
+    * "lunch"
+    * "make otapackage"
 
-Building:
-----------
-* . build/envsetup.sh
-* lunch
-* make otapackage
+-OR- 
+    ". build/envsetup.sh && lunch"
+    "make otapackage -j__"
+    (where __ is put however many cores you can dedicate to the build MINUS one, quad core is -j3, octo core -j7, etc etc)
 
--OR- . build/envsetup.sh && lunch
--THEN- make otapackage -j(however many cores you can dedicate to the build minus one)
+* Your initial build will take about anywhere from 2-6 hours.  Each build after will take between 20-40 minutes.
 
-* Your initial build will take about 2-3 hours.  Each build after will take between 20-30 minutes.
+Building using our jet optimization:
+------------------------------
+    * "jet/DEVICE.sh n #"
+    Where DEVICE is replace it with a supported device like "jfltevzw" and where # is replace it with your -j(cores) number(just the number). For example this will build a Galaxy s4 for Verizon at 3 cores:
+    "jet/jfltevzw.sh n 3"
+-~-~-~-~-~->NOTE<-~-~-~-~-~-
+the jet script was designed to help us build more efficiently.  The n in the string means do not push to our website/ota.  If you replace it with y it means yes push to the website.  You however will not have the credentials to push to the website.  The n command also will push the build to our copy folder.  You wont have that permission either.  So at the end of your build it will have a small error saying unable to copy to such and such folder.  This is normal and perfectly fine.
+
+Thanks for playing!
 
  __________                 ___           __________     __________ 
 /   ____   \               |   |         /   ____   \   /   _______\
@@ -33,4 +53,4 @@ Building:
 |   |  |   |   /  ___\ |___     ___|     |   |  |   |    \______   \
 |   |  |   |  |  |         |   |         |   |  |   |           \  |
 |   ----   |  |  |____     |   |         |   ----   |     ______/  |
-\__________/   \_____/     |___|         \__________/    /_________/
+\__________/   \_____/     |___|         \__________/    /_________/     Established in 2013 by a group of hooligans, wild chimps, and baby unicorns
