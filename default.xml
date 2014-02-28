@@ -463,7 +463,7 @@
   <project path="sdk" name="platform/sdk" />
   
   <!-- System -->
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="os" revision="msoctos" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="os" revision="msoctos" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="hw" revision="cm-11.0" />
