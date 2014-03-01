@@ -39,7 +39,7 @@
   <project path="device/asus/deb" name="platform_device_asus_deb" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/asus/flo" name="platform_device_asus_flo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/asus/tilapia" name="platform_device_asus_tilapia" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!--project path="device/asus/tilapia" name="platform_device_asus_tilapia" groups="pdk" remote="ok" revision="kk-4.4" /-->
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/lge/mako" name="platform_device_lge_mako" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- Samsung gs4 Devices -->
