@@ -125,7 +125,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="ok" revision="kk-4.4-sm" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/busybox" name="android_external_busybox" remote="hw" revision="cm-11.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -352,7 +352,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4-sm" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4" />
@@ -446,7 +446,9 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="gh" revision="sm-kk-mr1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -468,7 +470,7 @@
   <project path="system/media" name="platform_system_media" groups="pdk" remote="os" revision="msoctos" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="hw" revision="cm-11.0" /> 
-  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ok" revision="kk-4.4-sm" />
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="hw" revision="cm-11.0" />
   
   <!-- Vendor -->
