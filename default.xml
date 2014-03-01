@@ -59,7 +59,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" /-->
   <!-- Samsung gs4 Devices -->
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="os" revision="msoctos" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jflterefreshspr" name="platform_device_samsung_jflterefreshspr" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -70,8 +70,8 @@
   <project path="device/samsung/jflteatt" name="platform_device_samsung_jflteatt" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltetmo" name="platform_device_samsung_jfltetmo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltexx" name="platform_device_samsung_jfltexx" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="os" revision="msoctos" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="os" revision="msoctos" />
   <!-- Samsung gs3 Devices -->
   <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2att" name="platform_device_samsung_d2att" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -82,7 +82,7 @@
   <project path="device/samsung/d2spi" name="platform_device_samsung_d2spi" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2mtr" name="platform_device_samsung_d2mtr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2cri" name="platform_device_samsung_d2cri" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="os" revision="msoctos" />
   <!-- Samsung Epic Device -->
   <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC One Devices -->
@@ -101,7 +101,7 @@
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
   <!--project path="kernel/grommish/jf" name="platform_kernel_samsung_jf" remote="grommish" revision="kk-4.4_new" /-->
-  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="os" revision="msoctos" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
   <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" /-->
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" groups="pdk" remote="ms" revision="msoctos" />
