@@ -3,16 +3,10 @@
 
   <remote name="ok"
            fetch="https://github.com/Octo-Kat/" />
-
-  <remote name="grommish"
-           fetch="https://github.com/Grommish/" />
            
   <remote name="hw"
            fetch="https://github.com/hardware-repos/" />
-           
-  <remote name="tem"
-           fetch="https://github.com/Temp-/" />
-           
+
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -28,7 +22,7 @@
            
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
-           sync-j="8" />
+           sync-j="4" />
 
   <remote name="github"
            fetch="git://github.com/" />
@@ -58,7 +52,6 @@
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" /-->
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="os" revision="msoctos" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -73,7 +66,6 @@
   <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="os" revision="msoctos" />
   <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="os" revision="msoctos" />
   <!-- Samsung gs3 Devices -->
-  <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2att" name="platform_device_samsung_d2att" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2vzw" name="platform_device_samsung_d2vzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2usc" name="platform_device_samsung_d2usc" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -98,9 +90,17 @@
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" groups="pdk" remote="ms" revision="msoctos" />
   <project path="device/htc/s4-common" name="android_device_htc_s4-common" groups="pdk" remote="ms" revision="msoctos" />
   
+<!-- LGE Devices -->
+  <!--project path="device/lge/vs980" name="platform_device_lge_vs980" groups="pdk" remote="ok" revision="kk-4.4" /-->
+  <project path="device/lge/ls980" name="platform_device_lge_ls980" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!--project path="device/lge/d802" name="platform_device_lge_d802" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/d801" name="platform_device_lge_d801" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/d800" name="platform_device_lge_d800" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/g2-common" name="platform_device_lge_g2-common" groups="pdk" remote="ok" revision="kk-4.4" /-->
+
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4_new" />
-  <!--project path="kernel/grommish/jf" name="platform_kernel_samsung_jf" remote="grommish" revision="kk-4.4_new" /-->
+  <!--project path="kernel/grommish/jf" name="Grommish/platform_kernel_samsung_jf" remote="gh" revision="kk-4.4_new" /-->
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="os" revision="msoctos" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
   <!--project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" /-->
@@ -345,7 +345,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="hw" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="ok" revision="kk-4.4" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="hardware/samsung" name="platform_hardware_samsung" remote="hw" revision="kk-4.4" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-4.4" />
@@ -446,6 +446,7 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.7" name="Linaro_47x_toolchain" remote="ok" revision="kk-4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -467,12 +468,13 @@
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="os" revision="msoctos" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="hw" revision="cm-11.0" />
-  <project path="system/security" name="android_system_security" groups="pdk" remote="hw" revision="cm-11.0" /> 
+  <project path="system/security" name="android_system_security" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="hw" revision="cm-11.0" />
   
   <!-- Vendor -->
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="ms" revision="cm-11.0" />
+  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="ok" revision="kk-4.4" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
   <project path="vendor/oct" name="vendor_oct" remote="ms" revision="msoctos" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="ok" revision="kk-4.4" />
