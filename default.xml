@@ -310,7 +310,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="os" revision="msoctos" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="ms" revision="msoctos" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="os" revision="msoctos2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
