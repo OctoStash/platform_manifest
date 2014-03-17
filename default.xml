@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="cm"
+           fetch="git://github.com/" 
+           review="review.cyanogenmod.org" 
+           sync-j="4" />
+
   <remote name="ok"
            fetch="https://github.com/Octo-Kat/" />
            
