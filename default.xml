@@ -349,8 +349,8 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="hw" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="os" revision="msoctos2" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="os" revision="msoctos2" />
   <project path="hardware/samsung" name="platform_hardware_samsung" remote="hw" revision="kk-4.4" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-4.4" />
