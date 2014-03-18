@@ -98,6 +98,7 @@
   <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- Our Google Kernels -->
   <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="ok" revision="kk-4.4" />
+  <project path="kernel/asus/flo" name="platform_kernel_asus_flo" remote="ok" revision="kk-4.4" />
   <project path="kernel/google/msm" name="platform_kernel_google_msm" remote="ok" revision="kk-4.4" />
   <project path="kernel/asus/grouper" name="platform_kernel_asus_grouper" remote="ok" revision="kk-4.4" />
   <!-- Our LGE Kernels -->
