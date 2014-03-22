@@ -78,7 +78,7 @@
   <project path="device/samsung/d2spi" name="platform_device_samsung_d2spi" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2mtr" name="platform_device_samsung_d2mtr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2cri" name="platform_device_samsung_d2cri" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="os" revision="msoctos" />
+  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="os" revision="tester" />
   <!-- Samsung Epic Device -->
   <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC One Devices -->
