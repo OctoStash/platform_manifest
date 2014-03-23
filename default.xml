@@ -74,7 +74,7 @@
   <project path="device/samsung/d2vzw" name="platform_device_samsung_d2vzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2usc" name="platform_device_samsung_d2usc" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2tmo" name="platform_device_samsung_d2tmo" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/d2spr" name="platform_device_samsung_d2spr" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="pdk" remote="ms" revision="tester" />
   <project path="device/samsung/d2spi" name="platform_device_samsung_d2spi" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2mtr" name="platform_device_samsung_d2mtr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/d2cri" name="platform_device_samsung_d2cri" groups="pdk" remote="ok" revision="kk-4.4" />
