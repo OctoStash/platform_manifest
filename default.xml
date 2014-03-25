@@ -36,10 +36,8 @@
   <!-- AOSP Devices-->
   <project path="device/common" name="device/common" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/asus/deb" name="platform_device_asus_deb" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/asus/flo" name="platform_device_asus_flo" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="pdk" remote="ok" revision="kk-4.4" />
-  <!--project path="device/asus/tilapia" name="platform_device_asus_tilapia" groups="pdk" remote="ok" revision="kk-4.4" /-->
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/lge/mako" name="platform_device_lge_mako" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- Samsung gs4 Devices -->
@@ -99,7 +97,6 @@
   <!-- Our Google Kernels -->
   <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="ok" revision="kk-4.4" />
   <project path="kernel/asus/flo" name="platform_kernel_asus_flo" remote="ok" revision="kk-4.4" />
-  <project path="kernel/google/msm" name="platform_kernel_google_msm" remote="ok" revision="kk-4.4" />
   <project path="kernel/asus/grouper" name="platform_kernel_asus_grouper" remote="ok" revision="kk-4.4" />
   <!-- Our LGE Kernels -->
   <project path="kernel/lge/msm8974" name="platform_kernel_lge_msm8974" remote="ok" revision="kk-4.4" />
