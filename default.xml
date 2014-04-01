@@ -66,6 +66,8 @@
   <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- Samsung Epic Device -->
   <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/n7000" name="platform_device_samsung_n7000" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/galaxys2-common" name="platform_device_samsung_galaxys2-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC One Devices -->
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -91,6 +93,7 @@
   <!--project path="kernel/grommish/jf" name="Grommish/platform_kernel_samsung_jf" remote="github" revision="kk-4.4_new" /-->
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/smdk4412" name="platform_kernel/samsung/smdkk4412" remote="ok" revision="kk-4.4" />
   <!-- Our HTC Kernels -->
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
   <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -405,6 +408,7 @@
   <project path="packages/apps/HallMonitor" name="platform_packages_apps_HallMonitor" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/KitKatWhite" name="red3razor/packages_themes_KitKatWhite" remote="github" revision="kitkat" />
   <project path="packages/apps/AndroidKernelTweaker" name="platform_packages_apps_AndroidKernelTweaker" remote="ok" revision="kk-4.4" />
+  <project path="packages/apps/SamsungServiceMode" name="platform_packages_apps_SamsungServiceMod" remote="ok" revision="kk-4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
