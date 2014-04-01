@@ -69,7 +69,7 @@
   <project path="device/samsung/n7000" name="platform_device_samsung_n7000" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/galaxys2-common" name="platform_device_samsung_galaxys2-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/n7100" name="platform_device_samsung_n7100" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/galaxys2-common" name="platform_device_samsung_smdk4412-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/smdk4412-common" name="platform_device_samsung_smdk4412-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <!-- HTC One Devices -->
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" groups="pdk" remote="ok" revision="kk-4.4" />
