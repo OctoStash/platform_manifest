@@ -95,7 +95,7 @@
   <!--project path="kernel/grommish/jf" name="Grommish/platform_kernel_samsung_jf" remote="github" revision="kk-4.4_new" /-->
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/epicmtd" name="platform_kernel_samsung_epicmtd" remote="ok" revision="kk-4.4" />
-  <project path="kernel/samsung/smdk4412" name="platform_kernel/samsung/smdkk4412" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/smdk4412" name="platform_kernel_samsung_smdkk4412" remote="ok" revision="kk-4.4" />
   <!-- Our HTC Kernels -->
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="ok" revision="kk-4.4" />
   <project path="kernel/htc/msm8960" name="platform_kernel_htc_msm8960" groups="pdk" remote="ok" revision="kk-4.4" />
