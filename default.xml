@@ -345,7 +345,7 @@
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf-new" name="platform_hardware_qcom_display-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf-new" name="platform_hardware_qcom_media-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
