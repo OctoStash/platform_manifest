@@ -502,6 +502,6 @@
   <project path="vendor/htc" name="platform_vendor_htc" remote="ok" revision="kk-4.4" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="ok" revision="kk-4.4" />
-  <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4-unify" />
+  <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4" />
 
 </manifest>
