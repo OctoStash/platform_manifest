@@ -49,7 +49,7 @@
   <!-- Samsung gs3/gs4 common -->
   <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4-KK/platform_device_samsung_msm8960-common" groups="pdk" remote="gh" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="gh" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
  
    <!-- Samsung Epic Device -->
   <project path="device/samsung/epicmtd" name="platform_device_samsung_epicmtd" groups="pdk" remote="ok" revision="cm-11.0" />
