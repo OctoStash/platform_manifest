@@ -301,7 +301,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="AOSP-S4-KK/platform_frameworks_av" groups="pdk" remote="gh" revision="kk-4.4" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
