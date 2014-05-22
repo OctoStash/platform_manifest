@@ -505,5 +505,10 @@
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="ok" revision="kk-4.4" />
   <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4" />
-
+  <project path="vendor/qcom" name="platform_vendor_qcom" remote="ok" revision="master" />
+  <project path="vendor/widevine" name="platform_vendor_widevine" remote="ok" revision="master" />
+  <project path="vendor/nxp" name="platform_vendor_nxp" remote="ok" revision="master" />
+  <project path="vendor/nvidia" name="platform_vendor_nvidia" remote="ok" revision="master" />
+  <project path="vendor/invensense" name="platform_vendor_invensense" remote="ok" revision="master" />
+  <project path="vendor/elan" name="platform_vendor_elan" remote="ok" revision="master" />
 </manifest>
