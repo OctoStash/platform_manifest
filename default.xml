@@ -21,11 +21,11 @@
   <!-- Build Tools -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="AOSP-S4-KK/platform_bionic" groups="pdk" remote="gh" revision="kk-4.4" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="jet" name="jet" remote="ok" revision="kk-4.4" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="AOSP-S4-KK/platform_dalvik" remote="gh" revision="kk-4.4" />
+  <project path="dalvik" name="platform_dalvik" remote="ok" revision="kk-4.4" />
   <project path="development" name="platform/development" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   
@@ -114,7 +114,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOSP-S4-KK/platform_external_bluetooth_bluedroid" groups="pdk" remote="gh" revision="kk-4.4" />
+  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/busybox" name="platform_external_busybox" remote="ok" revision="kk-4.4" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -124,7 +124,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="AOSP-S4-KK/platform_external_chromium_org" remote="gh" revision="kk-4.4" />
+  <project path="external/chromium_org" name="platform_external_chromium_org" remote="ok" revision="kk-4.4" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -264,7 +264,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="AOSP-S4-KK/platform_external_sepolicy" remote="gh" revision="kk-4.4" groups="pdk" />
+  <project path="external/sepolicy" name="platform_external_sepolicy" remote="ok" revision="kk-4.4" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="platform_external_skia" remote="ok" revision="kk-4.4" />
