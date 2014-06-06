@@ -25,7 +25,7 @@
   <project path="jet" name="jet" remote="ok" revision="kk-4.4" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform_dalvik" remote="ok" revision="kk-4.4" />
+  <project path="dalvik" name="platform_dalvik" remote="ok" revision="kk-443" />
   <project path="development" name="platform/development" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   
@@ -48,7 +48,7 @@
   
   <!-- Samsung gs3/gs4 common -->
   <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-443" />
   <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
  
    <!-- Samsung Epic Device -->
@@ -97,7 +97,7 @@
   <project path="kernel/samsung/smdk4412" name="platform_kernel_samsung_smdk4412" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/hlte" name="platform_kernel_samsung_hlte" remote="ok" revision="kk-4.4" />
-  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4-sm" />
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-443" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -341,7 +341,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="ok" revision="kk-4.4" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="ok" revision="kk-443" />
-  <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-443" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
@@ -349,7 +349,7 @@
   <project path="hardware/qcom/display-caf-new" name="platform_hardware_qcom_display-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-443" />
-  <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-443" />
   <project path="hardware/qcom/media-caf-new" name="platform_hardware_qcom_media-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
