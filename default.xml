@@ -493,7 +493,7 @@
   <project path="system/core" name="AOSP-S4-KK/platform_system_core" groups="pdk" remote="gh" revision="kk-4.4" />
   <project path="system/extras" name="AOSP-S4-KK/platform_system_extras" groups="pdk" remote="gh" revision="kk-4.4" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="gh" revision="cm-11.0" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="gh" revision="cm-11.0" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="gh" revision="cm-11.0" /> 
   <project path="system/vold" name="AOSP-S4-KK/platform_system_vold" groups="pdk" remote="gh" revision="kk-4.4" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="pdk" remote="gh" revision="cm-11.0" />
