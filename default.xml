@@ -7,6 +7,9 @@
   <remote name="sp"
            fetch="https://github.com/SpawnPool/" />
            
+  <remote name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+           
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
            
